@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="5dp"
+    android:background="#ECE4EF"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/comingEventCityImageView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/shamian_island" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="25dp"
+                android:paddingVertical="3dp"
+                android:text="已完結"
+                android:textColor="#1B3268"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/comingEventNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="活動名稱"
+            android:textColor="#1B3268"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/comingEventAddressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="活動地點" />
+
+        <TextView
+            android:id="@+id/comingEventDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="1970-01-01"
+            android:textColor="#8F3AB6"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
